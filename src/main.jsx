@@ -11,6 +11,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import store from "./redux/store.jsx";
 import { Provider } from "react-redux";
 import Login from "./components/loginPage.jsx";
+import Register from "./components/registerPage.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <BrowserRouter
